@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color: red;
+}
+
+.clock
+{
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 40%;
+    left:35%;
+    font-size: 50px;
+    font-weight: bold;
+}
