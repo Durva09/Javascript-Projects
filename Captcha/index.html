@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="caps.js" ></script> 
+</head>
+<body onload="captchaGenerator()"> 
+    <div id="back">
+    <center>
+    <h1>Captcha - Generator</h1><br>
+    <input type="text" id="captcha" style=" width: 11%; font-weight:bolder; text-align: center; font-size: 25px; background-image:url('captcha.jpg');" disabled>
+    <input type="button" id="refresh" value="Refresh" onclick="captchaGenerator()">
+    <br><br>
+    <input type="text" id="userCaptcha" >
+    <input type="button" id="check" value="Check" onclick="isValid()">
+    </center>
+    </div>
+</body>    
+</html>
