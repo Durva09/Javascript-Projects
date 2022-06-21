@@ -1,0 +1,51 @@
+html {
+  font-size: 10px;
+  background: url('images/music.jpg') bottom center;
+  background-size: cover;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 6.5vh;
+  align-items: center;
+  justify-content: center;
+  width:900px;
+  /* float: left; */
+}
+  
+.key {
+  border: .1rem solid rgba(58, 53, 53, 0.4);
+  border-radius: .5rem;
+  margin: 2.5rem;
+  margin-left: 1.75rem;
+  font-size: 1.75rem;
+  padding: 1rem .30rem;
+  transition: all .07s ease;
+  width: 5.5rem;
+  text-align: center;
+  color: white;
+  background-color: rgba(58, 53, 53, 0.4);
+}
+  .playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 2rem;
+  }
+  
+  @media screen and (max-width: 480px)
+  {
+    .keys
+    {
+      flex-basis: 50%;
+    }
+    .key
+    {
+      flex: 1 0 21%;
+    }
+  }
