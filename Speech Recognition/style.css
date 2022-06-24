@@ -1,0 +1,41 @@
+body
+{
+    background-color: darkcyan;
+}
+
+.words
+{
+    background-color: white;
+    height: auto;
+    min-height: 6.5%;
+    width: 45%;
+    margin-top: 2%;
+    border-radius: 4px;
+    position: relative;
+}
+
+.fa
+{
+margin-right: 3.5%;
+margin-top: 1.5%;
+}
+
+.fa.fa-pull-right
+{
+    margin-left: 0.3em;
+}
+
+.fa-pull-right
+{
+    float: right;
+}
+
+.fa-2x
+{
+    font-size: 3em;
+}
+
+p
+{
+font-size:30px;
+}
